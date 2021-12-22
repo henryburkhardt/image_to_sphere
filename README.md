@@ -6,6 +6,14 @@ Here's an example of rendering a black and white image of a face into a 3d envir
 https://www.youtube.com/watch?v=JmCNsPvIqq4
  
 The end result of this project is that I can run any black and white image through my programs and render a 3d-sphere display from the image. The human face environment in the video originated from a real picture of a man's face.
+
+Here's a short example of taking an image from JPEG to 3d Spheres using [Track_cricle.py](./Track_cricle.py) and [create_spheres.cs](./Unity%20Files/create_spheres.cs):
+
+<p align="center">
+    <img src="./images/slide1.jpg" width=400/>
+    <img src="./images/slide2.jpg" width=400/>
+    <img src="./images/slide3.jpg" width=400/>
+</p>
  
 Lastly, I developed a workflow (with spreadsheets and querying the data using R) to list out the spheres in the environment from the top down as individual "strings," and standardize the sphere sizes to a discrete set of radii. This means that I can create spheres in all of these sizes (my workflow tells me how mnay to make) and use the lists of sphere-strings to know in what order I should hang these spheres. I plan to create a real-life installation of the man face environment using this method later this Spring.
 
